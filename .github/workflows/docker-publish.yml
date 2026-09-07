@@ -32,4 +32,4 @@ jobs:
           platforms: linux/amd64,linux/arm64
           tags: |
             ghcr.io/gpendle/skills-publish-docker-images/stackoverflown:main
-            ghcr.io/gpendle/skills-publish-docker-images/stackoverflows:${{ github.sha }}
+            ghcr.io/gpendle/skills-publish-docker-images/stackoverflown:${{ github.sha }}
